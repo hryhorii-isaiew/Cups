@@ -14,24 +14,17 @@ html {
 .container {
   max-width: 1200px;
   margin: auto;
+  padding: 20px;
   background-color: var(--bg-color);
 }
-.cups {
-  display: flex;
-  align-items: baseline;
-}
+
 .cup {
-  width: 360px;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin-bottom: 20px;
   background-color: var(--cupbg-color);
 }
-.cup_gold {
-  margin: -30px 0;
-  padding: 30px 0;
-}
+
 .cup__title {
   font-size: 4.37rem;
   font-weight: 400;
