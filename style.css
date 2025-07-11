@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #f7ed72;
+  --cupbg-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: var(--bg-color);
+}
+.cups {
+  display: flex;
+}
+.cup {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-color: var(--cupbg-color);
+}
