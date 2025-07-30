@@ -2,6 +2,7 @@
   --bg-color: #f7ed72;
   --cupbg-color: #ffffff;
   --title-col: #02995b;
+  --cup-desc-col: #bcbcbc;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
@@ -46,6 +47,7 @@ html {
   padding-bottom: 4px;
   font-weight: 400;
   margin: 0;
+  color: var(--cup-desc-col);
 }
 .cup__desc:last-of-type {
   margin-bottom: 53px;
